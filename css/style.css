@@ -1,10 +1,24 @@
 .brand
 {
    color:rgb(243, 74, 108);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 2%;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+   height: 8vh;
+   
 }
 .fa-bars
 {
-   border: rgb(243, 74, 108) 6px solid ;
-   padding : 4px 15px;
-   border-radius: 27%;
+   border: rgb(243, 74, 108) 1px solid;
+   padding-left:22px;
+   padding-right:22px;
+   padding-top: 8px;
+   border-radius: 8%;
 }
+.logo
+{
+   margin-top: 5px;
+}
+   
