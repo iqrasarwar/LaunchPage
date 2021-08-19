@@ -1,0 +1,10 @@
+.brand
+{
+   color:rgb(243, 74, 108);
+}
+.fa-bars
+{
+   border: rgb(243, 74, 108) 6px solid ;
+   padding : 4px 15px;
+   border-radius: 27%;
+}
