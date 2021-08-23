@@ -1,2 +1,5 @@
 # ROR_Ass_1
-responsive website
+Assignment 
+responsive website about Launch Page 
+with mobile first approch
+
