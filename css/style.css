@@ -1,3 +1,9 @@
+body
+{
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+   margin:0px;
+   padding:0px ;
+}
 .brand
 {
    color:rgb(243, 74, 108);
@@ -5,9 +11,8 @@
    flex-direction: row;
    justify-content: space-between;
    padding: 2%;
-   font-family: 'M PLUS Rounded 1c', sans-serif;
    height: 8vh;
-   
+   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .fa-bars
 {
@@ -21,4 +26,68 @@
 {
    margin-top: 5px;
 }
-   
+.welcome_div
+{
+   background-color: rgb(221, 239, 247);
+   padding-top: 7%;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+.welcome_text
+{
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.email
+{
+   height: 8vh;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+   margin-top: 10%;
+}
+.email_input
+{
+   border-radius: 40rem;
+   height: 95%;
+   width: 50%;
+   border: solid 1px rgb(231, 228, 229);
+}
+.get_started
+{
+   border-radius: 40rem;
+   height: 100%;
+   width: 35%;
+   background-color: rgb(243, 74, 108) ;
+   color: white;
+   border: none;
+}
+.email_input::placeholder
+{
+   padding: 5%;
+}  
+.email_input:active,.email_input:focus
+{
+   outline: none;
+}  
+.what_we_do
+{
+   text-align: center;
+   align-content: center;
+   margin: 2%;
+}
+.what_we_do h2,.what_we_do h3
+{
+   color: rgb(2, 2, 99);
+}
+.what_we_do img
+{
+   border-radius: 27%;
+}
+.featured
+{
+   color:rgb(2, 2, 99);
+   font-weight: 700;
+   font-size: 1.5rem;
+}
+/* .logo1, .logo2, .logo3, .logo4
+{
+   /* background-color: darkgrey;; */
+}  */
