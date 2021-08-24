@@ -50,6 +50,13 @@ body
    width: 50%;
    border: solid 1px rgb(231, 228, 229);
 }
+.button
+{
+   border-radius: 40rem;
+   background-color: rgb(243, 74, 108) ;
+   color: white;
+   border: none;
+}
 .get_started
 {
    border-radius: 40rem;
@@ -72,6 +79,7 @@ body
    text-align: center;
    align-content: center;
    margin: 2%;
+   margin-top: 15%;
 }
 .what_we_do h2,.what_we_do h3
 {
@@ -85,9 +93,61 @@ body
 {
    color:rgb(2, 2, 99);
    font-weight: 700;
-   font-size: 1.5rem;
+   font-size: 0.9rem;
+   padding: 8% ;
+   background-color: rgb(221, 239, 247);
+   margin: 15% 0%;
 }
-/* .logo1, .logo2, .logo3, .logo4
+.featured_text_with_images
 {
-   /* background-color: darkgrey;; */
-}  */
+   display: flex;
+   flex-direction: row;
+   align-content: space-between;
+}  
+.logo1
+{
+   width: 29%;
+   background: transparent;
+}
+.logo2
+{
+   width: 29%;
+   background: transparent;
+}
+.logo3
+{
+   width: 25%;
+   margin-left: 3%;
+}
+.logo4
+{
+   width: 60%;
+   margin-right: 3%;
+}
+.featured_text
+{
+   padding-top: 5%;
+   width: 39%;
+}
+.fa-li
+{
+   color: rgb(243, 74, 108) ;
+}
+.discover
+{
+   margin: 2%;
+}
+.discover h2
+{
+   color:rgb(2, 2, 99);
+}
+.discover_button_div
+{
+   height: 7vh;
+}
+.discover_button
+{
+   height: 100%;
+   width: 33vw;
+   font-size: medium;
+}
