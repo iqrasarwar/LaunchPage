@@ -137,9 +137,16 @@ body
 {
    margin: 2%;
 }
-.discover h2
+.discover h2,.discover_div h3
 {
    color:rgb(2, 2, 99);
+}
+.discover_div
+{
+   background-color: rgb(221, 239, 247);
+   margin: 0%;
+   padding: 15% 5%;
+   font-size: small; 
 }
 .discover_button_div
 {
@@ -150,4 +157,130 @@ body
    height: 100%;
    width: 33vw;
    font-size: medium;
+}
+.customize_icon, .improve_icon, .onboard_icon
+{
+   margin-top: 6%;
+   margin-right: 4%;
+}
+.customize_icon
+{
+   color: rgb(5, 142, 255);
+}
+.improve_icon
+{
+   color: rgb(61, 172, 47);
+}
+.onboard_icon
+{
+   color: rgb(243, 74, 108);
+}
+.fa-rocket, .fa-chart-line, .fa-network-wired
+{
+   background-color: rgb(255, 255, 255);
+   border: 2px solid rgb(233, 233, 233);
+   border-radius: 50%;
+   padding:1rem;
+}
+.customize, .onboard, .improve
+{
+   display: flex;
+   flex-direction: row;
+   margin: 2%;
+   padding: 4%;
+}
+.customize
+{
+   background-color: white;
+   border:1px transparent solid;
+   border-radius: 3%;
+}
+.fun_facts
+{
+   background-color: #ff0000;
+   color: white;
+   text-align: center;
+   align-content: center;
+   padding: 17% 0%;
+}
+.count, .fun_facts h2
+{
+   font-weight: bold;
+   font-size: 1.6rem;
+}
+.fun_facts img
+{
+   width: 64px;
+   height: 64px;
+}
+.projects_completed, .happy_clients, .design_awards, .line_of_codes
+{
+   margin: 10%;
+}  
+.fun_facts p{
+   margin: 2%;
+}
+.what_people_Say_text{
+   color: rgb(130, 131, 128);
+}
+.what_people_say
+{
+   padding: 17% 4%;
+   background-color: rgb(221, 239, 247);
+}
+.what_people_say h2, .reviwer_name
+{
+   color:rgb(2, 2, 99);
+} 
+.reviwer_name, .reviwer_desg
+{
+   font-weight: bold;
+   font-size: 0.7rem;
+   margin: 3% 0%;
+}
+.stars .fas,.stars .far
+{
+   color: #FDCC0D;
+}
+.stars
+{
+   padding-bottom: 5%;
+}
+.reviwer_desg
+{
+   color: rgb(29, 252, 0);
+}
+.alexandra_name, .john_doe, .Christina_pages
+{
+   display: flex;
+   flex-direction: row;
+   gap:1%;
+}
+.alexandra_smith_review, .john_doe, .Christina_pages
+{
+   border-left: 6px solid rgb(26, 151, 9);
+   background-color: white;
+   margin-bottom: 7%;
+   padding:4%;
+}
+.alexandra_smith_review
+{
+   margin-top: 8%;
+}
+.christina_pic, .john_pic, .alexandra_pic
+{
+   width: 10vw;
+   height: 8vh;
+}
+.what_people_say img
+{
+   width: 100%;
+   height: 100%;
+   border: 1px transparent solid;
+   border-radius: 50%;
+}
+.name_des
+{
+   display: flex;
+   flex-direction: row;
 }
