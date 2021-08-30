@@ -14,6 +14,16 @@ body
    height: 8vh;
    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
+.nav_bars
+{
+   visibility: hidden;
+   display: none;
+}
+.contact_d
+{
+   visibility: hidden;
+   display: none;
+}
 .fa-bars
 {
    border: rgb(243, 74, 108) 1px solid;
@@ -630,11 +640,306 @@ select
 {
    color: rgb(146, 7, 146);
 }
+@media screen and (min-width:1366px){
+   .brand
+   {
+      visibility: hidden;
+      display: none;
+   }
+   .nav_bars
+   {
+      visibility: visible;
+      display: list-item;
+      color: rgb(2, 2, 99);
+      font-weight: bold;
+      padding:3% ;
+   }
+   .nav{
+      padding:0% 1%;
+   }
+   .nav_logo
+   {
+      margin-right: 25%;
+      color: rgb(243, 74, 108);
+      font-size: 1.5rem;
+      margin-left: 2%;
+   }
+   .nav_contact_us
+   {
+      color:white;
+      font-weight: normal;
+      background-color: rgb(243, 74, 108);
+      padding:1%;
+      border-radius: 40rem;
+   }
+   .video
+   {
+      padding-top:0%;
+      padding-bottom: 0%;
+   }
+   .welcome_div
+   {
+      display: flex;
+      flex-direction: row;
+      font-size:1.4rem;
+      padding:5% 7%;
+   }
+   .what_we_do
+   {
+      margin-top: 5%;
+   }
+   .parallel_divs
+   {
+      display: flex;
+      flex-direction: row;
+      margin-left:8%;
+      margin-right:8%; 
+   }
+   .parallel_divs div{
+     padding-right:8%;
+   }
+   .featured{
+      display: flex;
+      flex-direction: row;
+      margin-top:4%;
+      padding:2% 12%;
+      align-content: center;
+      margin-bottom: 4%;
+   }
+   .featured_text
+   {
+      font-size: 1.2rem;
+   }
+   .logo1,.logo2
+   {
+      height: 15vh;
+   }
+   .logo3,.logo4
+   {
+      padding-top:4%;
+   }
+   .discover_parallel
+   {
+      display:flex;
+      flex-direction: row;
+      padding:2% 5%;
+      margin-bottom: 3%;
+   }
+   .discover{
+      margin: 0%;
+      width:40%;
+      margin-left: 3%;
+   }
+   .people_img
+   {
+      padding: 0%;
+      width:45%
+   }
+   .people_img img{
+      margin:0%;
+      box-shadow: 20px 20px 20px rgb(189, 180, 180);
+   }
+   .discover_button
+   {
+      width: 11vw;
+   }
+   .discover_div{
+      display: flex;
+      flex-direction: row;
+      padding:3% 4%;
+
+   }
+   #img2
+   {
+      width:50%;
+      margin-left: 6%;
+   }
+   .fun_facts
+   {
+      padding: 3% 0%;
+   }
+   .projects_completed,.happy_clients,.line_of_codes,.Design_Awards
+   {
+      margin:0%;
+      margin-right: 10%;
+   }
+   .fun_facts_p
+   {
+      display: flex;
+      flex-direction: row;
+      padding:0% 21%;
+   }
+   .what_people_say
+   {
+      display: flex;
+      flex-direction: row;
+      gap:10%;
+      margin:0% 0%;
+      padding:5% 7%;
+   }
+   .review_p_0
+   {
+      padding-top:10%;
+   }
+   .christina_pic, .john_pic, .alexandra_pic
+   {
+      width: 6vw;
+      height: 9vh;
+   }
+   .alexandra_smith_review, .john_doe, .Christina_pages
+   {
+      margin-bottom: 2%;
+      padding:4%;
+   }
+   .name_des{
+      padding-top: 3%;
+   }
+   .reviwer_name, .reviwer_desg {
+      font-size: 1.1rem;
+      margin:0% 0%;
+  }
+  .john_doe .reviwer_name
+  {
+     margin-right: -20%;
+  }
+  .alexandra_smith_review .reviwer_name
+  {
+     margin-right: -8%;
+  }
+  .star_div
+  {
+     display:flex;
+     flex-direction: row;
+     gap:6%;
+  }
+  .line
+  {
+     border-left: 1px solid rgb(185, 184, 184);
+     height: 50px;
+  }
+  .portfolio_images
+  {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: auto;
+     margin: 5% 7%;
+  }
+  .portfolio1,.portfolio4,.portfolio2,.portfolio5
+  {
+     height:50%;
+     width: 100%;
+  }
+  .portfolio_images img
+   {
+      width: 100%;
+      height: 100%;
+   }
+   .portfolio{
+      margin:4% 0%;
+   }
+   .members
+   {
+      display: flex;
+      flex-direction: row;
+      margin: 4%;
+   }
+   .intro{
+      padding-bottom: 0%;
+   }
+   .meet_our_team
+   {
+      padding: 5% 0%;
+   }
+   .award_winning_agency
+   {
+      padding: 7% 27%;
+   }
+   .amazing_features_p
+   {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto auto;
+      margin: 3% 5%;
+      gap: 3%;
+   }
+   .amazing_features
+   {
+      margin: 3% 0%;
+   }
+   .pricing
+   {
+      display: flex;
+      flex-direction: row;
+      gap: 5%;
+      padding: 4% 5%;
+      text-align: center;
+      align-content: center;
+   }
+   .pricing div{
+      margin: 0%;
+   }
+   .pricing_text
+   {
+      width: 25%;
+      text-align: left;
+   }
+   .monthly
+   {
+      width: 30%;
+      margin:5% 0%!important;
+      padding: 4% 2% !important;
+   }
+   .yearly
+   {
+      width: 30%;
+      padding: 4% 2% !important;
+   }
+   .faq
+   {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: auto;
+      gap: 5%;
+   }
+   .q1{
+      padding: 0%;
+   }
+   .faq1{
+      margin-top: 1%;
+   }
+   .faqs{
+      padding: 5% 4%;
+   }
+   .center{
+      margin-bottom: 2%;
+   }
+   #inv
+   {
+      visibility: hidden;
+      display: none;
+   }
+   .contact_d
+   {
+      visibility: visible;
+      display: flex;
+      flex-direction: column;
+   }
+   .input_1 
+   {
+      display: flex;
+      flex-direction: row;
+      gap:15%;
+      
+   }
+   .input_1 input{
+      padding:6% 30%;
+   }
+}
 @media screen and (max-width:1024px)
 {
    .brand
    {
-      height: 7vh;
+      height: 4vh;
    }
    .christina_pic, .john_pic, .alexandra_pic
    {
@@ -649,6 +954,9 @@ select
    .ficons
    {
       padding-left:18rem;
+   }
+   .name_des{
+      padding-top: 5%;
    }
 }
 @media screen and (max-width:768px)
@@ -666,6 +974,10 @@ select
    {
       padding-left:12rem;
    }
+   .name_des
+   {
+      padding-top: 6%;
+   }
 }
 @media screen and (max-width:540px)
 {
@@ -677,6 +989,16 @@ select
    {
       padding-top: 10px;
    }
+   .reviwer_name, .reviwer_desg
+   {
+      font-weight: bold;
+      font-size: 0.9rem;
+      margin: 3% 0%;
+   }
+   .name_des
+   {
+      padding-top:8%;
+   }
 }
 @media screen and (max-width:411px)
 {
@@ -684,16 +1006,30 @@ select
    {
       padding-top: 12px;
    }
+   .reviwer_name, .reviwer_desg
+   {
+      font-weight: bold;
+      font-size: 0.7rem;
+      margin: 3% 0%;
+   }
+   .name_des
+   {
+      padding-top:10%;
+   }
+   .ficons
+   {
+      padding-left:1.4rem;
+   }
 }
 @media screen and (max-width:375px)
 {
    .brand
    {
-      height: 5vh;
+      height: 6vh;
    }
    .fa-bars
    {
-      padding-top: 5px;
+      padding-top: 6px;
    }
    .reviwer_name, .reviwer_desg
    {
@@ -704,6 +1040,10 @@ select
    .ficons
    {
       padding-left:1.2rem;
+   }
+   .name_des
+   {
+      padding-top:10%;
    }
 }
 @media screen and (max-width:360px)
@@ -716,6 +1056,10 @@ select
    {
       padding-top: 10px;
    }
+   .name_des
+   {
+      padding-top:9%;
+   }
 }
 @media screen and (max-width:320px)
 {
@@ -727,9 +1071,13 @@ select
    {
       padding-top: 7px;
    }
-   .email_input::placeholder
+   .email_input::placeholder, .get_started, .discover_button
    {
       font-stretch: semi-condensed;
+   }
+   .name_des
+   {
+      padding-top:9%;
    }
    .reviwer_name, .reviwer_desg
    {
