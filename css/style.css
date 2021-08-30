@@ -630,3 +630,115 @@ select
 {
    color: rgb(146, 7, 146);
 }
+@media screen and (max-width:1024px)
+{
+   .brand
+   {
+      height: 7vh;
+   }
+   .christina_pic, .john_pic, .alexandra_pic
+   {
+      width: 15vw;
+      height: 15vh;
+   }
+   .reviwer_name, .reviwer_desg
+   {
+      font-size: 2rem;
+      margin: 4% 0%;
+   }
+   .ficons
+   {
+      padding-left:18rem;
+   }
+}
+@media screen and (max-width:768px)
+{
+   .brand
+   {
+      height: 5vh;
+   }
+   .reviwer_name, .reviwer_desg
+   {
+      font-size: 1.5rem;
+      margin: 4% 0%;
+   }
+   .ficons
+   {
+      padding-left:12rem;
+   }
+}
+@media screen and (max-width:540px)
+{
+   .brand
+   {
+      height: 8vh;
+   }
+   .fa-bars
+   {
+      padding-top: 10px;
+   }
+}
+@media screen and (max-width:411px)
+{
+   .fa-bars
+   {
+      padding-top: 12px;
+   }
+}
+@media screen and (max-width:375px)
+{
+   .brand
+   {
+      height: 5vh;
+   }
+   .fa-bars
+   {
+      padding-top: 5px;
+   }
+   .reviwer_name, .reviwer_desg
+   {
+      font-weight: bold;
+      font-size: 0.7rem;
+      margin: 3% 0%;
+   }
+   .ficons
+   {
+      padding-left:1.2rem;
+   }
+}
+@media screen and (max-width:360px)
+{
+   .brand
+   {
+      height: 8vh;
+   }
+   .fa-bars
+   {
+      padding-top: 10px;
+   }
+}
+@media screen and (max-width:320px)
+{
+   .brand
+   {
+      height: 8vh;
+   }
+   .fa-bars
+   {
+      padding-top: 7px;
+   }
+   .email_input::placeholder
+   {
+      font-stretch: semi-condensed;
+   }
+   .reviwer_name, .reviwer_desg
+   {
+      font-weight: bold;
+      font-size: 0.6rem;
+      margin: 3% 0%;
+   }
+   .ficons
+   {
+      padding-left:1.6rem;
+   }
+}
