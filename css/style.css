@@ -974,12 +974,43 @@ select
    .ficons i {
       padding-right: 4%;
    }
+   .input_1 select{
+      width:19rem;
+   }
+}
+@media screen and (max-width:1365px)
+{
+   .ficons
+   {
+      padding-left:28rem;
+   }
+}
+@media screen and (max-width:1300px)
+{
+   .ficons
+   {
+      padding-left:26rem;
+   }
+}
+@media screen and (max-width:1200px)
+{
+   .ficons
+   {
+      padding-left:23rem;
+   }
+}
+@media screen and (max-width:1100px)
+{
+   .ficons
+   {
+      padding-left:20rem;
+   }
 }
 @media screen and (max-width:1024px)
 {
    .brand
    {
-      height: 4vh;
+      height: 8vh;
    }
    .christina_pic, .john_pic, .alexandra_pic
    {
@@ -999,11 +1030,45 @@ select
       padding-top: 5%;
    }
 }
+@media screen and (max-width:1000px)
+{
+   .brand
+   {
+      height: 9vh;
+   }
+   .ficons
+   {
+      padding-left:17rem;
+   }
+}
+@media screen and (max-width:900px)
+{
+   .brand
+   {
+      height: 9vh;
+   }
+   
+   .ficons
+   {
+      padding-left:16rem;
+   }
+}
+@media screen and (max-width:850px)
+{
+   .brand
+   {
+      height: 9vh;
+   }
+   .ficons
+   {
+      padding-left:14rem;
+   }
+}
 @media screen and (max-width:768px)
 {
    .brand
    {
-      height: 5vh;
+      height: 9vh;
    }
    .reviwer_name, .reviwer_desg
    {
@@ -1017,6 +1082,31 @@ select
    .name_des
    {
       padding-top: 6%;
+   }
+}
+@media screen and (max-width:700px)
+{
+   .brand
+   {
+      height: 9vh;
+   }
+   .ficons
+   {
+      padding-left:11rem;
+   }
+}
+@media screen and (max-width:650px)
+{
+   .ficons
+   {
+      padding-left:9rem;
+   }
+}
+@media screen and (max-width:600px)
+{
+   .ficons
+   {
+      padding-left:7rem;
    }
 }
 @media screen and (max-width:540px)
@@ -1039,9 +1129,24 @@ select
    {
       padding-top:8%;
    }
+   .ficons
+   {
+      padding-left:7rem;
+   }
+}
+@media screen and (max-width:480px)
+{
+   .ficons
+   {
+      padding-left:5rem;
+   }
 }
 @media screen and (max-width:411px)
 {
+   .brand
+   {
+      height: 20vh;
+   }
    .fa-bars
    {
       padding-top: 12px;
@@ -1058,7 +1163,7 @@ select
    }
    .ficons
    {
-      padding-left:1.4rem;
+      padding-left:3rem;
    }
 }
 @media screen and (max-width:375px)
@@ -1079,7 +1184,7 @@ select
    }
    .ficons
    {
-      padding-left:1.2rem;
+      padding-left:2.3rem;
    }
    .name_des
    {
@@ -1099,6 +1204,10 @@ select
    .name_des
    {
       padding-top:9%;
+   }
+   .ficons
+   {
+      padding-left: 1.9rem;
    }
 }
 @media screen and (max-width:320px)
